@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Accordian Plugin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center py-3">Bootstrap Accordian Plugin Classes</h2>
+        <div class="row py-3 justify-content-center">
+            <div class="col-md-7">
+                <div class="accordian" id="accordianExample">
+                    <div class="card">
+                        <div class="card-header">
+                            <button class="btn btn-link btn-block text-left" data-bs-toggle="collapse"
+                                data-bs-target="#collapse1">Heading 1</button>
+                        </div>
+                    </div>
+                 
+                <div id="collapse1" class="collapse show" data-bs-parent="#accordianExample">
+                    <div class=" card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla enim doloribus soluta,
+                        inventore suscipit laborum ullam necessitatibus quam error iusto accusamus, fuga sapiente!
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link btn-block text-left" data-bs-toggle="collapse"
+                            data-bs-target="#collapse2">Heading 2</button>
+                    </div>
+                </div>
+            
+            <div id="collapse2" class="collapse" data-bs-parent="#accordianExample">
+                <div class=" card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla enim doloribus soluta,
+                    inventore suscipit laborum ullam necessitatibus quam error iusto accusamus, fuga sapiente!
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link btn-block text-left" data-bs-toggle="collapse"
+                        data-bs-target="#collapse3">Heading 3</button>
+                </div>
+            </div>
+        
+        <div id="collapse3" class="collapse" data-bs-parent="#accordianExample">
+            <div class=" card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla enim doloribus soluta, inventore
+                suscipit laborum ullam necessitatibus quam error iusto accusamus, fuga sapiente!
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
